@@ -3,6 +3,7 @@ import "bulma/css/bulma.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HomeSection from "../components/homeSection"
+import About from "../components/about"
 
 export default class IndexPage extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class IndexPage extends Component {
       <Layout>
         <SEO title="Home" />
         <HomeSection/>
+        <About />
       </Layout>
     )
   }

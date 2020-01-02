@@ -7,12 +7,18 @@ const Wrapper = styled.section`
   background-image: url(${bgImage});
   background-size: cover;
   height: 90vh;
-  p.title{
-      word-spacing: 15px;
+  p.title {
+    word-spacing: 15px;
   }
-  div.button-container{
-      display: flex;
-      justify-content: center;
+  div.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .button.is-primary.is-inverted.is-outlined{
+    :hover{
+      background-color: #f39c12;
+      border-color: #f39c12;
+    }
   }
 `
 

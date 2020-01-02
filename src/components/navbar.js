@@ -2,13 +2,13 @@ import React, { Component } from "react"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
-  border-bottom: 1px solid brown;
+  border-bottom: 1px solid #f39c12;
   .navbar-item {
       color: #fff;
     padding: 2.5rem 1.75rem;
     :hover {
       background-color: transparent;
-      color: brown;
+      color: #f39c12;
     }
   }
 `;
