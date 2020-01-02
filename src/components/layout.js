@@ -25,11 +25,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+        <main>{children}</main>
         <footer>
           Copyright © 2020 All rights reserved | This template is made with by 
           {` `}
-          <a href="http://sjjs.in/">S.J.J.S. Pvt. Ltd.</a>
+          <a href="https://www.gatsbyjs.org">S.J.J.S. Pvt. Ltd.</a>
         </footer>
     </>
   )
